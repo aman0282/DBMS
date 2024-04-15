@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<h1>DELETING A ROW FROM TABLE</h1>
+<H2>The DELETE COMMAND is used to delete rows from a table.</H2>
+<p>SYNTAX OF DELETE COMMAND IS :</p>
+<H4>DELETE FROM TABLE_NAME [WHERE CONDITION];</H4>
+
+<STYLE>
+    H1{
+      margin-top: 5%;
+        text-decoration:underline;
+        text-align: center;
+    }
+    H2{
+        font-size: x-large;
+        font-family: 'Courier New', Courier, monospace;
+    }
+  H3{
+    font-style: italic;
+    font-size: xx-large;
+  }
+  H4{
+    font-size: xx-large;
+    font-style: oblique;
+    font-display:unset;
+  }
+  h5{
+    font-size: x-large;
+    text-align: center;
+  }
+  H6{
+    font-size: xx-large;
+  }
+  H7{
+    font-style: italic;
+    font-size: xx-large;
+  }
+  p {
+        border-radius: 10px;
+        padding: 20px;
+        text-align: justify;
+        border: 1px solid black;
+        font-size: Xx-large;
+        font-style: normal;
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }   
+</STYLE>
+<style>
+table{
+    font-family: arial,sans-serif;
+    border: collapse;
+     width: 100%;
+}
+
+td,th {
+    border: 1px solid #dddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #dddd;
+}
+</style>
+<H5>TABLE:EMP</H5>
+  <table>
+    <tr>
+      <th>Emp No</th>
+      <th>Ename</th>
+      <th>job</th>
+      <th>salary</th>
+    </tr>
+    <tr>
+      <td>4258</td>
+      <td>AMAN</td>
+      <td>MANAGER</td>
+      <TD>10000</TD>
+    </tr>
+    <tr>
+      <td>4226</td>
+      <td>MISBAH</td>
+      <td>CLERK</td>
+      <TD>12000</TD>
+    </tr>
+    <tr>
+        <td>4204</td>
+        <td>ABHISHEK</td>
+        <TD>PRESIDENT</TD>
+        <TD>15000</TD>
+    </tr>
+
+  <tr>
+    <td>4249</td>
+    <td>ASHA</td>
+    <td>SALESPERSON</td>
+    <TD>13000</TD>
+  </tr>
+  <tr>
+    <td>4298</td>
+    <td>MANJIT KUMAR</td>
+    <td>DIRECTOR</td>
+    <TD>12000</TD>
+  </tr>
+  <tr>
+      <td>4211</td>
+      <td>NEHA</td>
+      <TD>SALESPERSON</TD>
+      <TD>12000</TD>
+  </tr>
+  <TR>
+    <TD>4237</TD>
+    <td>PAWAN</td>
+    <td>PROFESSOR</td>
+    <td>20000</td>
+  </TR>
+  </table>
+
+<h6>TO DELETE A ROW FROM A TABLE ,THE QUERY WILL BE LIKE:</h6>
+<p>DELETE FROM EMP WHERE EMP NO='4237';</p>
+
+<H5>TABLE:EMP</H5>
+  <table>
+    <tr>
+      <th>Emp No</th>
+      <th>Ename</th>
+      <th>job</th>
+      <th>salary</th>
+    </tr>
+    <tr>
+      <td>4258</td>
+      <td>AMAN</td>
+      <td>MANAGER</td>
+      <TD>10000</TD>
+    </tr>
+    <tr>
+      <td>4226</td>
+      <td>MISBAH</td>
+      <td>CLERK</td>
+      <TD>12000</TD>
+    </tr>
+    <tr>
+        <td>4204</td>
+        <td>ABHISHEK</td>
+        <TD>PRESIDENT</TD>
+        <TD>15000</TD>
+    </tr>
+
+  <tr>
+    <td>4249</td>
+    <td>ASHA</td>
+    <td>SALESPERSON</td>
+    <TD>13000</TD>
+  </tr>
+  <tr>
+    <td>4298</td>
+    <td>MANJIT KUMAR</td>
+    <td>DIRECTOR</td>
+    <TD>12000</TD>
+  </tr>
+  <tr>
+      <td>4211</td>
+      <td>NEHA</td>
+      <TD>SALESPERSON</TD>
+      <TD>12000</TD>
+  </tr>

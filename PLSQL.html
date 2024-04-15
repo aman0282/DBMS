@@ -1,0 +1,140 @@
+<!-- The navigation menu -->
+<div class="navbar">
+    <a href="dbms.html">Home</a>
+    <div class="subnav">
+      <button class="subnavbtn">BASICS OF PL/SQL<i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+          <a href="INTRO.HTML" target="contentframe">INTRODUCTION</a>
+        <a href="DATATYPESP.HTML" target="contentframe">DATA TYPES</a>
+      </div>
+    </div>
+    <div class="subnav">
+      <button class="subnavbtn">VARIABLES AND CONSTANTS <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="introvc.html" target="contentframe">INTRODUCTION</a>
+        <a href="example program.html" target="contentframe">EXAMPLE PROGRAM </a>
+      </div>
+    </div>
+    <div class="subnav">
+      <button class="subnavbtn">CURSORS<i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="introcursor.html" target="contentframe">INTRODUCTION</a>
+        <a href="explicit cursor.html" target="contentframe">EXPLICIT CURSOR</a>
+        <a href="implicit cursor.html" target="contentframe">IMPLICIT CURSOR</a>
+      </div>
+    </div>
+    <div class="subnav">
+      <button class="subnavbtn">TRIGGERS<i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="triggerintro.html" target="contentframe">INTRODUCTION</a>
+        <a href="exampletrigger.html" target="contentframe">EXAMPLE PROGRAM</a>
+      </div>
+    </div>
+  
+    <div class="subnav">
+      <button class="subnavbtn">PROCEDURES<i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="INTRO PROCE.HTML" target="contentframe">INTRODUCTION</a>
+        <a href="EXAMPLE PROCE.HTML" target="contentframe">EXAMPLE PROGRAM </a>
+        
+      </div>
+    </div>
+      <div class="subnav">
+        <button class="subnavbtn">FUNCTIONS<i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="function intro.html" target="contentframe">INTRODUCTION</a>
+          <a href="example funct.html" target="contentframe">EXAMPLE PROGRAM</a>
+        </div>
+      </div>
+        <div class="subnav">
+          <button class="subnavbtn">EXCEPTION HANDLING<i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="INTRO EH.HTML" target="contentframe">INTRODUCTION</a>
+            <a href="EXAMPLE EH.HTML" target="contentframe">EXAMPLE PROGRAM</a>
+          </div>
+        </div>
+  </div>
+  
+  
+  <iframe src="INTRO.HTML" frameborder="0" height="80%" width="100%" name="contentframe"></iframe>
+  <style>
+  /* The navigation menu */
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    font-size:large;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The subnavigation menu */
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Subnav button */
+  .subnav .subnavbtn {
+    font-size:large;
+    border: none;
+    outline: none;
+    color:#ddd;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  /* Add a red background color to navigation links on hover */
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color:grey;
+  }
+  
+  /* Style the subnav content - positioned absolute */
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color:white;
+    width: 100%;
+    z-index: 1;
+    font-size:large;
+  }
+  
+  /* Style the subnav links */
+  .subnav-content a {
+    float: left;
+    color:black;
+    text-decoration: none;
+    font-size:xx-large;
+  }
+  
+  /* Add a grey background color on hover */
+  .subnav-content a:hover {
+    background-color: #eee;
+    color:#333;
+  }
+  
+  /* When you move the mouse over the subnav container, open the subnav content */
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+  
+  .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      img{
+        margin-top:5%;
+      }
+  </style>
+  

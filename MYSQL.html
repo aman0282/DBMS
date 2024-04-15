@@ -1,0 +1,192 @@
+<!-- Load font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The navigation menu -->
+<div class="navbar">
+  <a href="dbms.html">Home</a>
+  <div class="subnav">
+    <button class="subnavbtn">BASICS OF SQL<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="BASICS OF SQL.html" target="contentframe">INTRODUCTION</a>
+      <a href="DATA TYPES.HTML"  target="contentframe">DATA TYPES</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">DATBASES <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="create database.html"  target="contentframe">CREATE DATABASE</a>
+      <a href="show database.html"  target="contentframe">SHOW DATABSES</a>
+      <a href="use database.html"  target="contentframe">USING A DATABASE</a>
+      <a href="drop database.html"  target="contentframe">DROP DATABASE</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">SELECT<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="select statement.HTML" target="contentframe">SELECT STATEMENT</a>
+      <a href="conditional retrieval.html" target="contentframe">CONDITIONAL RETRIEVAL OF ROWS</a>
+
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">TABLES<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="Creating table.html" target="contentframe">CREATE A TABLE</a>
+      <a href="show table.html" target="contentframe">SHOW TABLE</a>
+      <a href="describe table.html" target="contentframe">DESCRIBE TABLE</a>
+      <a href="drop table.html" target="contentframe">DROP A TABLE</a>
+    </div>
+  </div>
+
+  <div class="subnav">
+    <button class="subnavbtn">VIEWS<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="introduction view.html" target="contentframe">INTRODUCTION</a>
+      <a href="creating view.html" target="contentframe">CREATE A VIEW</a>
+      <a href="deleting view.html" target="contentframe">DELETE A VIEW</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">CLAUSES<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="group by .html" target="contentframe">GROUP BY</a>
+      <a href="order by.html" target="contentframe">ORDER BY</a>
+      <a href="limit.html" target="contentframe">LIMIT</a>
+      <a href="offset .html" target="contentframe">OFFSET</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">MANAGING PRIVILEGES<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="Grant.html" target="contentframe">Grant</a>
+      <a href="REVOKE.html" target="contentframe">Revoke</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">INSERT <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="inserting a value.html" target="contentframe">INSERT A VALUE</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">DELETE <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="deleting a row .html" target="contentframe">DELETE A ROW</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">UPDATE<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="updating column.html" target="contentframe">UPDATE A ROW</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">ALTER<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="add column.html" target="contentframe">ADD COLUMN</a>
+      <a href="update column.html" target="contentframe">UPDATE COLUMN</a>
+      <a href="drop column .html" target="contentframe">DROP COLUMN</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">JOINS<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="SELF JOIN.HTML" target="contentframe">SELF JOIN</a>
+      <a href="CARTESIAN JOIN.HTML" target="contentframe">CARTESIAN JOIN</a>
+      <a href="EQUI JOIN.HTML" target="contentframe">EQUI JOIN</a>
+      <a href="OUTER JOIN.HTML"target="contentframe">OUTER JOIN</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">TRANSACTION MANAGEMENT<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="INTRODUCTION.HTML"target="contentframe">INTRODUCTION</a>
+      <a href="EXAMPLE.HTML" target="contentframe">EXAMPLE</a>
+    </div>
+  </div>
+</div>
+
+<!-- <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/difference_between_sql_and_mysql.jpg" class="center"> -->
+<iframe src="BASICS OF SQL.html" frameborder="0" height="80%" width="100%" name="contentframe"></iframe>
+<style>
+  /* The navigation menu */
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    font-size: large;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* The subnavigation menu */
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+
+  /* Subnav button */
+  .subnav .subnavbtn {
+    font-size: large;
+    border: none;
+    outline: none;
+    color: #ddd;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  /* Add a red background color to navigation links on hover */
+  .navbar a:hover,
+  .subnav:hover .subnavbtn {
+    background-color: grey;
+  }
+
+  /* Style the subnav content - positioned absolute */
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 120px;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    z-index: 1;
+    font-size: large;
+  }
+
+  /* Style the subnav links */
+  .subnav-content a {
+    color: black;
+    text-decoration: none;
+    font-size:x-large;
+  }
+
+  /* Add a grey background color on hover */
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: #333;
+  }
+
+  /* When you move the mouse over the subnav container, open the subnav content */
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  img {
+    margin-top: 5%;
+  }
+</style>

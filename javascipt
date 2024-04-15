@@ -1,0 +1,15 @@
+document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const sqlCommand = document.getElementById('sql_command').value;
+
+    // Send AJAX request to execute.php
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', 'execute.php', true);
+    xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+    xhr.onload = function() {
+        if (xhr.status === 200) {
+            document.getElementById('result').innerHTML = xhr.responseText;
+        }
+    }
+    xhr.send('sql_command=' + encodeURIComponent(sqlCommand));
+});

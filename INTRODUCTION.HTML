@@ -1,0 +1,52 @@
+<h1>TRANSACTION MANAGEMENT:</h1>
+<P>Transaction management in MySQL allows you to group multiple SQL statements into a single unit of work, ensuring that either all the statements are executed successfully or none of them are applied. This helps maintain data integrity and consistency within the database. MySQL supports transaction management using the START TRANSACTION, COMMIT, and ROLLBACK statements</P>
+    <H1>STARTING NEW TRANSACTION:</H1>
+    <p><U>START TRANSACTION;</U>This statement marks the beginning of a transaction. It signifies the start of a sequence of SQL statements that will be treated as a single unit of work.
+
+    </P>
+    <H1>COMMIT CHANGES IN TRANSACTION:</H1>
+
+    <P><U>COMMMIT;</U>This statement permanently saves the changes made during the current transaction. Once committed, the changes become visible to other database sessions.</P>
+
+    <H1>ROLL BACK CHANGES IN TRANSACTION:</H1>
+
+    <P><U>ROLL BACK;</U> This statement rolls back (undoes) any changes made during the current transaction. It effectively cancels the transaction and restores the database to its state before the transaction began.</P>
+
+<style>
+        h1{
+            margin-top: 5%;
+            text-align: center;
+            text-decoration:underline;
+            font-size: xx-large;
+            font-weight: 100;
+            font-style: italic;
+        }
+        H3{
+            font-size:xX-large;
+            font-style: italic;
+        }
+        h4{
+            text-align: center;
+            font-size: xx-large;
+            font-style: inherit;
+            text-decoration: underline;
+        }
+        p {
+        border-radius: 10px;
+        padding: 20px;
+        text-align: justify;
+        border: 1px solid black;
+        font-size: Xx-large;
+        font-style: normal;
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }   
+          .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    </style>
+        
+    

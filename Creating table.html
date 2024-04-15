@@ -1,0 +1,71 @@
+<h1>CREATING A TABLES:</h1>
+<P>The CREATE TABLE Command is used to create tables to store data.
+    Tables are owned by the user who creates them.
+</P>
+
+<h3>SYNTAX OF CREATE A TABLE:</h3>
+<p>
+    CREATE TABLE table_name
+    (
+        column_name1 datatype,
+        column_name2 datatype,
+        ....
+        column_nameN datatype
+    );
+</p>
+
+<h1>table_name:</h1>
+    <p> This is the name of the table you want to create.<br></p>
+
+    <h1>(column1, column2, ...): </h1>
+        
+    <p>These are the names of the columns in the table.<br></p>
+    
+    <h1>datatype:</h1>
+    
+    <p>Specifies the data type for each column. Examples include INT, VARCHAR, DATE, etc.<br></p>
+    
+    <h1>constraints:</h1>
+     
+    <p>Optional constraints that enforce rules or conditions on the data in the columns, such as PRIMARY KEY, NOT NULL, UNIQUE, FOREIGN KEY, etc.<br></p>
+    
+    <p>Here's an example of creating a simple table named student with three columns:</p>
+
+<h4>QUERY</h4>
+<p>USE school;<br>
+
+    Database changed<br>
+    
+    CREATE TABLE student ( RollNo INT PRIMARY KEY, Name VARCHAR(50), PhoneNo VARCHAR(10) );<br>
+    
+    Query OK, 0 rows affected (0.16 sec)</p>
+<style>
+    h1{
+        margin-top: 5%;
+        text-align: center;
+        text-decoration:underline;
+        font-size: xx-large;
+        font-weight: 100;
+        font-style: italic;
+    }
+    H3{
+        font-size:x-large;
+        font-style: italic;
+    }
+    h4{
+        text-align: center;
+        font-size: xx-large;
+        font-style: inherit;
+        text-decoration: underline;
+    }
+    p {
+        border-radius: 10px;
+        padding: 20px;
+        text-align: justify;
+        border: 1px solid black;
+        font-size: Xx-large;
+        font-style: normal;
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }   
+</style>
